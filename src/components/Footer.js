@@ -35,10 +35,30 @@ const Footer = () => {
                 <p>I'm a B.tech Graduate, Specialised in Cyber Security, having sound Knowledge of Machine Learning and Full Stack Development.</p>
 
                 <div className='social'>
-                    <FaFacebook size={30} style={{color: "white", marginRight: '1rem'}}/>
-                    <FaTwitter size={30} style={{color: "white", marginRight: '1rem'}}/>
-                    <FaInstagram size={30} style={{color: "white", marginRight: '1rem'}}/>
-                    <FaLinkedinIn size={30} style={{color: "white", marginRight: '1rem'}}/>
+         
+                    <div>
+                        <a href="https://www.linkedin.com/in/vikashkrsingh-lpu/" target="_blank">
+                            <FaLinkedinIn size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.facebook.com/vikash88044" target="_blank">
+                            <FaFacebook size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/vikash_hzp/" target="_blank">
+                            <FaInstagram size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://twitter.com/vikash_hzp" target="_blank">
+                            <FaTwitter size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
