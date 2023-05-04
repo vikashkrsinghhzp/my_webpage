@@ -37,25 +37,25 @@ const Footer = () => {
                 <div className='social'>
          
                     <div>
-                        <a href="https://www.linkedin.com/in/vikashkrsingh-lpu/" target="_blank">
+                        <a href="https://www.linkedin.com/in/vikashkrsingh-lpu/">
                             <FaLinkedinIn size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
 
                     <div>
-                        <a href="https://www.facebook.com/vikash88044" target="_blank">
+                        <a href="https://www.facebook.com/vikash88044">
                             <FaFacebook size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
 
                     <div>
-                        <a href="https://www.instagram.com/vikash_hzp/" target="_blank">
+                        <a href="https://www.instagram.com/vikash_hzp/">
                             <FaInstagram size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
 
                     <div>
-                        <a href="https://twitter.com/vikash_hzp" target="_blank">
+                        <a href="https://twitter.com/vikash_hzp">
                             <FaTwitter size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
