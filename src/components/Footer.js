@@ -1,6 +1,6 @@
 import './FooterStyle.css';
 import React from 'react'
-import { FaFacebook, FaHome , FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaLinkedinIn} from "react-icons/fa";
+import { FaFacebook, FaHome , FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaLinkedinIn, FaGithub} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -39,6 +39,12 @@ const Footer = () => {
                     <div>
                         <a href="https://www.linkedin.com/in/vikashkrsingh-lpu/">
                             <FaLinkedinIn size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://github.com/vikashkrsinghhzp/">
+                            <FaGithub size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
 
