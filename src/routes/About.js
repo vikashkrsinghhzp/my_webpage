@@ -1,9 +1,11 @@
 import React from 'react'
+import './AboutStyle.css';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroImgAbout from '../components/HeroImgAbout';
 
 import Owner_Pic from "../assets/my_pic.png";
+import Resume from "../assets/resume.jpg";
 
 const About= () => {
   return (
@@ -17,7 +19,10 @@ const About= () => {
           I have keen Interest in Python, Java, Machine Learning, Full Stack, Cyber Security and Artificial Intelligence.
           Apart from this, I have also done Research Paper named "Review on Analysis of consumer mind and behavior in purchasing and decision making." which is Published on ICCS Journel.
         </p>
-      </div> 
+      </div>
+      <div className='about-resume'>
+        <img src={Resume} alt="Vikash_Resume"/>
+      </div>
       <Footer/>
     </div>
   )

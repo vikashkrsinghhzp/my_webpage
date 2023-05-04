@@ -7,6 +7,7 @@ import HeroImgProject from '../components/HeroImgProject';
 import Certficate_1 from "../assets/HRC.jpg";
 import Certficate_2 from "../assets/BIG_Data.jpg";
 import Certficate_3 from "../assets/Web_Hacking.jpg";
+import Certficate_4 from "../assets/git.jpg";
 
 import Project_1 from "../assets/Proj_1.jpeg";
 import Project_2 from "../assets/City_Conf.png";
@@ -20,6 +21,7 @@ const project = () => {
       <HeroImgProject/>
 
       <div className='proj-content'>
+          <img src={Certficate_4} alt="Certificate 4"/>
           <img src={Certficate_1} alt="Certificate 1"/>
           <img src={Certficate_2} alt="Certificate 2"/>
           <img src={Certficate_3} alt="Certificate 3"/>
