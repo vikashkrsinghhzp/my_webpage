@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 640px) {
-    .hero-project .content-project h1{
+    .hero-contact .content-contact h1{
         font-size: 1.6rem;
     }
 
