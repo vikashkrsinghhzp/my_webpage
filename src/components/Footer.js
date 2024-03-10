@@ -32,7 +32,7 @@ const Footer = () => {
 
             <div className='right'>
                 <h4>About Me</h4>
-                <p>I'm a B.tech Graduate, Specialised in Cyber Security, having sound Knowledge of Machine Learning and Full Stack Development.</p>
+                <p>I have a B.Tech in CS/IT. and am well-versed in IT Infrastructure, full stack development, machine learning, and cyber security. In search of a job in the information technology industry where I can use my skills to advance both my professional and personal development and have a positive impact on the success of the business.</p>
 
                 <div className='social'>
          
