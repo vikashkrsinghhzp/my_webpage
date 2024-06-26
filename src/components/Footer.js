@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className='social'>
          
                     <div>
-                        <a href="https://www.linkedin.com/in/vikashkrsingh-lpu/">
+                        <a href="https://www.linkedin.com/in/vikashkrsinghhzp/">
                             <FaLinkedinIn size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <a href="https://www.instagram.com/vikash_hzp/">
+                        <a href="https://www.instagram.com/___vikash_singh/">
                             <FaInstagram size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
