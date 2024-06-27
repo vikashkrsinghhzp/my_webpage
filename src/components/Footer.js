@@ -30,8 +30,7 @@ const Footer = () => {
 
             <div className='right'>
                 <h4>About Me</h4>
-                <p>I have a B.Tech in CS/IT. and am well-versed in IT Infrastructure, full stack development, machine learning, and cyber security. In search of a job in the information technology industry where I can use my skills to advance both my professional and personal development and have a positive impact on the success of the business.</p>
-
+                    <p>I am a software engineer currently working at ITC Infotech as a junior system administrator, where I am involved in an AI chatbot project for a British client. I hold a B.Tech in Computer Science with a specialization in cybersecurity and a minor in cyber law. My academic background and professional experience have equipped me with a strong foundation in both technical and legal aspects of cybersecurity, which I leverage in my current role to deliver innovative solutions.</p>
                 <div className='social'>
          
                     <div>
