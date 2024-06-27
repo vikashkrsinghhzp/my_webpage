@@ -3,7 +3,9 @@ import './ProjectStyle.css';
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import FooterAllRightsReserved from '../components/FooterAllRightsReserved';
 import HeroImgProject from '../components/HeroImgProject';
+
 import Certficate_1 from "../assets/HRC.jpg";
 import Certficate_2 from "../assets/BIG_Data.jpg";
 import Certficate_3 from "../assets/Web_Hacking.jpg";
@@ -37,6 +39,7 @@ const project = () => {
       </div>
       
       <Footer/>
+      <FooterAllRightsReserved/>
     </div>
   )
 }

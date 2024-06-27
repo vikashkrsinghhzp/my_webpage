@@ -1,0 +1,12 @@
+.FooterRightsBody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.FooterRights {
+    background-color: #131d28;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+}
+

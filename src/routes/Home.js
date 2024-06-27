@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar from "../components/Navbar";
 import HeroImg from "../components/HeroImg";
 import Footer from "../components/Footer";
+import FooterAllRightsReserved from '../components/FooterAllRightsReserved';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <HeroImg />
       <Footer />
+      <FooterAllRightsReserved/>
     </div>
   )
 }

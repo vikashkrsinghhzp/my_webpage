@@ -8,19 +8,17 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='left'>
 
+            <div className='phone'>
+                    <h4>
+                        <FaPhone size={20} style={{color: "white", marginRight: '2rem'}}/>
+                        +91 8804464155
+                    </h4>
+                </div>
+                
                 <div className='location'>
                     <FaHome size={20} style={{color: "white", marginRight: '2rem'}}/>
                     <p>Hazipur, Bihar - 844101.</p>
                 </div>
-
-
-                <div className='phone'>
-                    <h4>
-                        <FaPhone size={20} style={{color: "white", marginRight: '2rem'}}/>
-                        91-88044-64155
-                    </h4>
-                </div>
-
 
                 <div className='email'>
                     <h4>
