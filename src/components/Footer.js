@@ -69,11 +69,11 @@ const Footer = () => {
                         </a>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <a href="mailto:vikashkrsinghhzp@gmail.com">
                             <FaMailBulk size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
