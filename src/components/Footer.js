@@ -1,6 +1,6 @@
 import './FooterStyle.css';
 import React from 'react'
-import { FaFacebook, FaHome , FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaLinkedinIn, FaGithub} from "react-icons/fa";
+import { FaFacebook, FaHome , FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp, FaInbox} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='left'>
 
-            <div className='phone'>
+                <div className='phone'>
                     <h4>
                         <FaPhone size={20} style={{color: "white", marginRight: '2rem'}}/>
                         +91 8804464155
@@ -60,6 +60,18 @@ const Footer = () => {
                     <div>
                         <a href="https://twitter.com/vikash_hzp">
                             <FaTwitter size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://wa.me/8804464155">
+                            <FaWhatsapp size={30} style={{color: "white", marginRight: '1rem'}}/>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="mailto:vikashkrsinghhzp@gmail.com">
+                            <FaMailBulk size={30} style={{color: "white", marginRight: '1rem'}}/>
                         </a>
                     </div>
                 </div>
