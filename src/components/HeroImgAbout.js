@@ -10,7 +10,7 @@ const HeroImgAbout = () => {
         </div>
 
         <div className='content-about'>
-            <h1>About Me</h1>
+            <h1>Resume</h1>
         </div>
     </div>
   )
