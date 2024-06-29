@@ -1,13 +1,13 @@
 import './FooterStyle.css';
 import React from 'react'
-import { FaFacebook, FaHome , FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp} from "react-icons/fa";
+import { FaFacebook, FaHome , FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp, FaDownload} from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-container'>
             <div className='left'>
-
+                
                 <div className='phone'>
                     <h4>
                         <FaPhone size={20} style={{color: "white", marginRight: '2rem'}}/>
@@ -16,8 +16,10 @@ const Footer = () => {
                 </div>
                 
                 <div className='location'>
-                    <FaHome size={20} style={{color: "white", marginRight: '2rem'}}/>
-                    <p>Hazipur, Bihar - 844101.</p>
+                    <h4>
+                        <FaHome size={20} style={{color: "white", marginRight: '2rem'}}/>
+                        Hazipur, Bihar - 844101.
+                    </h4>
                 </div>
 
                 <div className='email'>
@@ -26,6 +28,16 @@ const Footer = () => {
                         vikashkrsinghhzp@gmail.com
                     </h4>
                 </div>
+
+                <div className='download_resume'>
+                    <h4>
+                        <FaDownload size={20} style={{color: "white", marginRight: '2rem'}}/>
+                        <a href="https://drive.google.com/file/d/1v4bi6ebRYLF66RUbaHw6_6UduRmShWP6/view?usp=sharing" download="Resume.pdf">Download Resume</a>
+                        {/* <a href="../assets/Resume.pdf" download="Resume.pdf">Download Resume</a> */}
+
+                    </h4>
+                </div>
+
             </div>
 
             <div className='right'>
